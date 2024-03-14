@@ -1,0 +1,385 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif ;
+  box-sizing: border-box;
+}
+
+/* for photo  */
+
+.container3{
+  display: flex;
+  flex-wrap: wrap;
+}
+#im3{
+  height: 250px;
+  width: 460px;
+  border-radius: 20px;
+  
+  
+
+}
+h3{
+  margin: 10px;
+  font-size: 40px;
+  color: #040506;
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+#b3{
+  margin: 1px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: black;
+  opacity: 0;
+  visibility: hidden;
+  border: 2px solid gray;
+}
+.card3{
+  height: 250px;
+  width: 460px;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 20px;
+  margin: 10px;
+  border: 2px solid gray;
+}
+
+.intro3{
+  height: 60px;
+  width: 400px;
+  /* left: 0; */
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 20px;
+  color: #ffff;
+  top: 800px;
+  transition: .5s;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+#b3:hover{
+  background: cyan;
+
+  transition: 0.5s ease-in-out;
+}
+#a3{
+  color:#fff;
+  text-decoration: none;
+  font-size: 25px;
+  
+
+}
+.card3:hover{
+  cursor: pointer;
+}
+.card3:hover .intro3{
+  height: 120px;
+  top: 690px;
+  background: rgb(255, 255, 255, 0.705);
+  border: 2px solid gray;
+}
+
+.card3:hover h3{
+  opacity: 1;
+  visibility: visible;
+}
+.card3:hover #b3{
+  opacity: 1;
+  visibility: visible;
+
+}
+.card3:hover #im3{
+  transform: scale(1.1);
+  border: 2px solid gray;
+} 
+
+/* -------------- */
+.container2{
+  display: flex;
+}
+#im2{
+  height: 250px;
+  width: 460px;
+  border-radius: 20px;
+  
+  
+
+}
+h2 {
+  margin: 10px;
+  font-size: 40px;
+  color: #040506;
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+#b2{
+  margin: 1px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: black;
+  opacity: 0;
+  visibility: hidden;
+  border: 2px solid gray;
+}
+.card2{
+  height: 250px;
+  width: 460px;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 20px;
+  margin: 10px;
+  border: 2px solid gray;  
+}
+
+.intro2{
+  height: 60px;
+  width: 400px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 20px;
+  color: #ffff;
+  top: 500px;
+  transition: .5s;
+
+}
+#b2:hover{
+  background: cyan;
+  color: #040506;
+  transition: 0.5s ease-in-out;
+}
+#a2{
+  color:#fff;
+  text-decoration: none;
+  font-size: 25px;
+  
+
+}
+.card2:hover{
+  cursor: pointer;
+}
+.card2:hover .intro2{
+  height: 120px;
+  top: 425px;
+  background: rgb(255, 255, 255, 0.705);
+  border: 2px solid gray;
+}
+
+.card2:hover h2{
+  opacity: 1;
+  visibility: visible;
+}
+.card2:hover #b2{
+  opacity: 1;
+  visibility: visible;
+}
+.card2:hover #im2{
+  transform: scale(1.1);
+  border: 2px solid gray;
+} 
+
+
+
+
+
+.container{
+  display: flex;
+}
+#im{
+  height: 250px;
+  width: 460px;
+  border-radius: 20px;
+  
+  
+
+}
+h1 {
+  margin: 10px;
+  font-size: 40px;
+  color: #040506;
+   opacity: 0;
+  visibility: hidden; 
+}
+
+
+#b{
+  margin: 1px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: black;
+  opacity: 0;
+  visibility: hidden; 
+  border: 2px solid gray;
+}
+.card{
+  height: 250px;
+  width: 460px;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 20px;
+  margin: 10px;
+  border: 2px solid gray;  
+}
+
+.intro{
+  height: 60px;
+  width: 400px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 20px;
+  color: #ffff;
+  top: 200px;
+  transition: .5s;
+
+}
+#b:hover{
+  background: cyan;
+  color: #040506;
+  transition: 0.5s ease-in-out;
+  
+}
+#a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 25px;
+}
+.card:hover{
+  cursor: pointer;
+}
+.card:hover .intro{
+  height: 120px;
+  top: 154px;
+  background: rgb(255, 255, 255, 0.705);
+  border: 2px solid gray;
+  z-index: 1o;
+}
+
+.card:hover h1{
+  opacity: 1;
+  visibility: visible;
+}
+.card:hover #b{
+  opacity: 1;
+  visibility: visible;
+}
+.card:hover #im{
+  transform: scale(1.1);
+  border: 2px solid gray;
+  
+} 
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  background: white;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(black,rgb(3, 84, 154));
+  border-radius: 10px;
+}
+header{
+  height: 95%;
+  width: 95%;
+  padding-left: 8px;
+  padding-right: 15px;
+  background: rgb(13, 1, 1); 
+  position: relative;
+  /* border: 2px solid white; */
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(15, 3, 3);
+  overflow: hidden;
+ margin: 27px;
+ /* background: url(/vedio/Transformers_Avengers_\ Endgame\ Trailer\ Mashup!.mp4); */
+  
+}  
+body{background:rgb(65, 64, 64);
+  width: 100%;
+  height: 100%;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width:600px)
+{
+   .container{
+    display:block;
+  } 
+  body{background:rgb(65, 64, 64);
+    width: 100%;
+    height: 100%;
+    
+    align-items: center;
+    justify-content: center;
+  }
+  header{
+    height: 100%;
+    width: 493px;
+    padding-left: 8px;
+    padding-right: 15px;
+    background: rgb(13, 1, 1); 
+    position: relative;
+    /* border: 2px solid white; */
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(15, 3, 3);
+    overflow: hidden;
+   margin: 27px;
+   /* background: url(/vedio/Transformers_Avengers_\ Endgame\ Trailer\ Mashup!.mp4); */
+    
+  } 
+  ::-webkit-scrollbar{
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track{
+    background: white;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(black,rgb(3, 84, 154));
+    border-radius: 10px;
+  }
+
+  .intro3{
+  height: 60px;
+  width: 400px;
+  /* left: 0; */
+  padding: 6px;
+  box-sizing: border-box;
+  position: block;
+  border-radius: 20px;
+  color: #ffff;
+  
+  transition: .5s;
+
+}
+
+
+.intro33 {
+  height: 60px;
+  width: 400px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 20px;
+  /* color: #d22222; */
+  /* background: #ffff; */
+  bottom: 55px;
+  transition: .5s;
+
+}
+.intro33:hover{
+  height: 120px;
+  bottom: 55px;
+  background: rgb(255, 255, 255, 0.705);
+  border: 2px solid gray;
+  z-index: 1o;
+}
+
+}
